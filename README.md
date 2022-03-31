@@ -52,7 +52,7 @@
     6. Create PR
     7. Get code reviews & address feedback
       * Anticipate comments others might have on your PR, and add explanations as comments to your source code.
-      * There will almost always be feedback. Don't take it personally.
+      * There will almost always be feedback. Don't take it personally. Gently push back if you disagree.
       * Don't get too personally attached to your code - it might be re-written or removed in the future.
       * Re-test code!
     8. Update branch with changes from production if necessary
@@ -60,10 +60,15 @@
     9. Merge PR
   * Document the task
   * Deploy the task
+  * Fix bugs
+    * Bugs are inevitable
+    * Add a failing regression test
+    * Fix bug, make sure test succeeds
 * Reviewing others' code
   * set aside time to review code every day
   * put 100% effort into reviewing code as well
   * Look more for high-level issues than nitpicks. If you have nitpicks, preface them as nitpicks.
+  * Don't take it personally if the PR author doesn't implement your suggestions.
 * Code conventions
   * Just adopt the team's code conventions. Hopefully you have an automatic linter so you don't need to think about it.
 
@@ -195,6 +200,7 @@
 * Deadlocks
 * Shared memory vs message passing
 * Actor model
+* Optimistic & pessimistic locking
 
 ## Automated testing
 * Unit tests
