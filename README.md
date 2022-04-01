@@ -60,10 +60,12 @@
     9. Merge PR
   * Document the task
   * Deploy the task
+    * Update task in project management software & mark as completed
   * Fix bugs
     * Bugs are inevitable
     * Add a failing regression test
-    * Fix bug, make sure test succeeds
+    * Fix bug, make sure test succeeds.
+    * If adding a regression test takes a lot of effort & you're confident in your fix, ship the fix before the regression test.
 * Reviewing others' code
   * set aside time to review code every day
   * put 100% effort into reviewing code as well
@@ -71,6 +73,11 @@
   * Don't take it personally if the PR author doesn't implement your suggestions.
 * Code conventions
   * Just adopt the team's code conventions. Hopefully you have an automatic linter so you don't need to think about it.
+* Other
+  * Recommend daily journaling
+    * Of tasks completed (unless your project management software suffices)
+    * Things you did well
+    * Things to improve on
 
 ## Mental/physical health
 * Take breaks (during a work day, also vacation time)
@@ -93,7 +100,7 @@
 ## Data-oriented Programming
 * Programming is all about transforming data.
   * Computers simply transform & move around data.
-  * Everything a computer stores is data.
+  * Everything a computer stores is data
   * Code is data.
   * Code specifies algorithms which transform data.
   * The same data can be represented in many ways.
@@ -205,9 +212,13 @@
 ## Automated testing
 * Unit tests
 * Dependency injection
-* Writing testable code
+* Mocks
 * Regression tests
 * Refactoring code without introducing bugs
+  * Add extensive tests for existing code
+  * Refactor
+  * Fix tests if necessary
+  * Ensure tests still succeed
 
 ## C#
 * LINQ
