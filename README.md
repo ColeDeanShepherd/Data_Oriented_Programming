@@ -225,6 +225,8 @@
 * Generics
 * Enumerables
 * Tasks & async/await
+  * Task vs ValueTask
+    * ValueTask is more efficient if the task completes asynchronously most of the time, and you don't need to await the task more than once.
 * Interfaces
 * Classes
 * Structs
