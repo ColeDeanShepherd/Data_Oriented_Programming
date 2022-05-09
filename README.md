@@ -209,6 +209,11 @@
 * Actor model
 * Optimistic & pessimistic locking
 
+## Distributed Computing
+* Distributed transactions
+  * 2 phase commit
+* Eventual consistency
+
 ## Automated testing
 * Unit tests
 * Dependency injection
