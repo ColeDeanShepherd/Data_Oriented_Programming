@@ -341,6 +341,7 @@
 * When investigating a live issue, first try to mitigate the issue, then try to understand and fix the cause.
 * Always assume server can die at any point during a request. You have to handle that.
 * Prefer idempotent requests.
+* One common problem with software (and other fields like math) is losing the high-level intent & interface to the implementation details. Avoid this!
 
 ## Resources
 * https://github.com/mtdvio/every-programmer-should-know
