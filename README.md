@@ -71,6 +71,7 @@
   * put 100% effort into reviewing code as well
   * Look more for high-level issues than nitpicks. If you have nitpicks, preface them as nitpicks.
   * Don't take it personally if the PR author doesn't implement your suggestions.
+  * Take a step back and think about the feature being implemented as a whole, and leave suggestions related to that.
 * Code conventions
   * Just adopt the team's code conventions. Hopefully you have an automatic linter so you don't need to think about it.
 * Other
