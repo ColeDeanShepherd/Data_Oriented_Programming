@@ -264,6 +264,10 @@
 * Think with separate levels of abstractions
 * DRY
 * Should be testable
+* Keep PRs small
+  * Ease of review/testing/reverting
+  * Lower chance for bugs
+  * Changes are more traceable
 
 ## Using source control
   * Commits
